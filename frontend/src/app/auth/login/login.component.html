@@ -1,0 +1,17 @@
+<form #frmLogin="ngForm" class="form-loging" (ngSubmit)="onLogin(frmLogin)">
+  <form action="">
+      <img src="https://i.postimg.cc/0QkTFyKb/Logo.png" alt="">
+      <div class="input-group">
+          <div class="input-container">
+              <input type="email" name="email" placeholder="Correo" ngModel required>
+              <i class="fa-solid fa-envelope"></i>
+      </div>
+      <div class="input-container">
+          <input type="password" name="password" placeholder="Contraseña" ngModel required>
+          <i class="fa-solid fa-lock"></i>
+      </div>
+      <a href="#">Si no tienes cuenta, registrate aqui</a>
+
+      <input class="btn" type="submit" value="Send" formaction="#" value="Login">
+      </div>
+</form>
